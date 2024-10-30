@@ -253,6 +253,13 @@ const RegistrationForm = () => {
               Rs. 649/-
             </span>
           </p>
+          <p className="text-gray-500">
+            (or pay with)
+          </p>
+          <FormDescription>
+            <span className="font-semibold">UPI ID: </span> 9154971659@ibl 
+            <span className="font-semibold ml-2">Number: </span> 9154971659
+          </FormDescription>
         </div>
         <FormField
           control={form.control}
