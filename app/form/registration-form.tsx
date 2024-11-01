@@ -51,7 +51,7 @@ const registrationFormSchema = z.object({
     .regex(/^\d+$/, "Invalid UTR No. / UPI Ref"),
 });
 
-const imgUrl = `/1.jpg`;
+const imgUrl = `/1.png`;
 
 type RegistrationFormValues = z.infer<typeof registrationFormSchema>;
 
